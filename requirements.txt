@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+langgraph
+numpy<2
+opencv-python-headless<5
+pycocotools

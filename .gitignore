@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+uploads/
+*.sqlite
+*.sqlite3
+*.db
+
+# Model weights and experiment outputs
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.ckpt
+work_dirs/
+runs/
+outputs/
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
